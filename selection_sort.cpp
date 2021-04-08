@@ -17,7 +17,7 @@ int index_smallest(const vector<int> &V,int start){
 void swap(vector<int> &V,int i, int j){
     int temp=V[i];
     V[i]=V[j];
-    V[j]=V[i];
+    V[j]=temp;
 }
 
 
